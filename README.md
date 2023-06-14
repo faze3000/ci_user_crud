@@ -22,8 +22,10 @@ Clone repo into your local PHP environment and run composer install
 
 1. Copy `env` to `.env` and tailor for your app, specifically the baseURL
 2. Create a blank database i.e simple_crud and edit the database.default on .env file section with your settings
-3. Run migrations which will create the users table for you i.e on your command line on project roon run php spark migrate
+3. Run migrations which will create the users table for you i.e on your command line on project root run php spark migrate
 5. For convenience there is a user seeder you can run to populate some data i.e php spark db:seed UserSeeder
+
+Depending on your localhost setup the app should be accessible on URL http://localhost/{yourprojectname}/public/users
 
 
 
