@@ -1,5 +1,7 @@
 # CodeIgniter 4 Simple CRUD application
 
+This is a simple app that allows you to manage users and their credentials. The path /users/ defaults to a list of all currently available users using Bootstrap and Datatables. From here users can edit/delete or add new users.
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
